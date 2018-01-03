@@ -1,0 +1,7 @@
+<h2 *ngIf="characters.length > 0">Character List Component</h2>
+
+<ul>
+  <li *ngFor="let character of characters">
+    <span>{{character.name}}</span>
+  </li>
+</ul>
